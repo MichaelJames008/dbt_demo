@@ -59,3 +59,5 @@ jobs:
         - name: DBT Build
           run: |
             poetry run dbt build --profiles-dir profiles --target prod
+
+

@@ -1,0 +1,23 @@
+dbt_demo:
+  outputs:
+    dev:
+      account: zqnkopc-kt87018
+      database: dbt_dev
+      password: Arch2024Enablement!
+      role: dbt_dev_role
+      schema: public
+      threads: 200
+      type: snowflake
+      user: dbt_user
+      warehouse: dbt_dev_wh
+    prod:
+      account: zqnkopc-kt87018
+      database: dbt_prod
+      password: Arch2024Enablement!
+      role: dbt_prod_role
+      schema: public
+      threads: 200
+      type: snowflake
+      user: dbt_user
+      warehouse: dbt_prod_wh
+  target: dev
