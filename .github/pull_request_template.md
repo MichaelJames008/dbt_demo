@@ -2,7 +2,7 @@
 _Provide an overview..._
 
 ### Details
-_Add more context to describe the changes..._
+_Add more context to describe the changes..
 
 ### Checks
 - [ ] Follows style guide
